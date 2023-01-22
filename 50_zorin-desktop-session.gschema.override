@@ -1,0 +1,138 @@
+##################################
+# zorin-desktop-session settings #
+##################################
+
+[org.gnome.shell:zorin]
+always-show-log-out = true
+app-picker-view = 1
+disable-user-extensions = false
+enabled-extensions = ['drive-menu@gnome-shell-extensions.gcampax.github.com', 'remove-dropdown-arrows@mpdeimos.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'zorin-appindicator@zorinos.com', 'zorin-desktop-icons@zorinos.com', 'zorin-printers@zorinos.com', 'zorin-taskbar@zorinos.com']
+disabled-extensions = ['zorin-dash@zorinos.com', 'zorin-menu@zorinos.com', 'zorin-hide-activities-move-clock@zorinos.com']
+
+[org.gnome.desktop.interface:zorin]
+gtk-theme = "Nordic"
+icon-theme= "Zafiro-icon-dark"
+cursor-theme = "Nordic-cursors"
+font-name = "Inter 10"
+document-font-name = "Sans 10"
+monospace-font-name = "JetBrains Mono 10"
+enable-hot-corners = false
+
+[org.gnome.desktop.app-folders.folders.Utilities:zorin]
+apps = ['org.gnome.Logs.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.Screenshot.desktop', 'software-properties-gtk.desktop', 'gnome-session-properties.desktop', 'gnome-language-selector.desktop', 'software-properties-drivers.desktop', 'alacarte.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'gufw.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Terminal.desktop']
+
+[org.gnome.desktop.background:zorin]
+show-desktop-icons = true
+
+[org.gnome.desktop.sound:zorin]
+theme-name = 'zorin'
+event-sounds = true
+input-feedback-sounds = true
+
+[org.gtk.Settings.FileChooser:zorin]
+sort-directories-first = true
+startup-mode = 'cwd'
+
+[org.gnome.desktop.wm.keybindings:zorin]
+show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
+switch-applications = ['<Super>Tab']
+switch-windows = ['<Alt>Tab']
+switch-applications-backward = ['<Shift><Super>Tab']
+switch-windows-backward = ['<Shift><Alt>Tab']
+
+[org.gnome.desktop.wm.preferences:zorin]
+resize-with-right-button = true
+button-layout = 'appmenu:minimize,maximize,close'
+theme = "Nordic"
+titlebar-font = 'Inter Bold 10'
+titlebar-uses-system-font = true
+
+[org.gnome.eog.ui:zorin]
+sidebar = false
+
+[org.gnome.nautilus.icon-view:zorin]
+default-zoom-level = 'standard'
+
+[org.gnome.nautilus.preferences:zorin]
+executable-text-activation = 'ask'
+show-create-link = true
+
+[org.gnome.mutter:zorin]
+attach-modal-dialogs = true
+center-new-windows = true
+edge-tiling = true
+dynamic-workspaces = true
+focus-change-on-pointer-rest = true
+workspaces-only-on-primary = false
+
+[org.gnome.mutter.keybindings:zorin]
+toggle-tiled-left = ['<Primary><Super>Left','<Super>Left']
+toggle-tiled-right = ['<Primary><Super>Right','<Super>Right']
+
+[org.gnome.settings-daemon.plugins.media-keys:zorin]
+home = ['<Super>e']
+
+[org.gnome.settings-daemon.plugins.power:zorin]
+button-power = 'suspend'
+button-sleep = 'suspend'
+critical-battery-action = 'suspend'
+power-button-action = 'suspend'
+
+[org.gnome.settings-daemon.plugins.xsettings:zorin]
+antialiasing = 'grayscale'
+hinting = 'slight'
+overrides = {'Gtk/ShellShowsAppMenu': <0>}
+
+[org.gnome.shell.extensions.user-theme:zorin]
+name = 'ZorinBlue-Light'
+
+[org.gnome.shell.extensions.zorin-desktop-icons:zorin]
+add-volumes-opposite = false
+show-home = false
+show-trash = false
+show-volumes = false
+
+[org.gnome.shell.extensions.zorin-menu:zorin]
+layout = 'ALL'
+
+[org.gnome.shell.extensions.zorin-taskbar:zorin]
+panel-positions = '{"0":"BOTTOM"}'
+activate-single-window = true
+animate-show-apps = true
+click-action = 'TOGGLE-SHOWPREVIEW'
+dot-style-focused = 'CILIORA'
+dot-style-unfocused = 'DOTS'
+group-apps = true
+group-apps-use-launchers = false
+intellihide = false
+multi-monitors = false
+panel-element-positions-monitors-sync = true
+panel-size = 42
+peek-mode = true
+show-favorites = true
+show-favorites-all-monitors = true
+show-running-apps = true
+show-tooltip = true
+show-window-previews = true
+window-preview-size = 150
+panel-element-positions = '{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"1":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
+
+[org.gnome.shell.extensions.user-theme:zorin]
+name = 'Nordic'
+
+[org.gnome.shell.overrides:zorin]
+workspaces-only-on-primary = false
+
+[org.gnome.desktop.peripherals.mouse:zorin]
+natural-scroll = false
+
+[org.gnome.desktop.peripherals.touchpad:zorin]
+tap-to-click = true
+natural-scroll = true
+click-method = 'default'
+
+[org.gnome.rhythmbox.plugins:zorin]
+active-plugins = ['alternative-toolbar', 'artsearch', 'audiocd','audioscrobbler','cd-recorder','daap','dbus-media-server','generic-player','ipod','iradio','mmkeys','mpris','mtpdevice','power-manager']
+
+[org.gnome.rhythmbox.plugins.alternative_toolbar:zorin]
+display-type = 1
