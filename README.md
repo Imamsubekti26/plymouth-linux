@@ -88,7 +88,8 @@ Video review : Youtube
       gnome-weather \
       quadrapassel \
       brasero \
-      zorin-connect 
+      zorin-connect \
+      zorin-appearance
     # apt autoremove
     ```
 
