@@ -1,8 +1,8 @@
-# OviOS | Remastering Linux Project
+# Virtosa | Remastering Linux Project
 last update : 26 January 2023
 
 ## Introducing
-ovios adalah linux yang dibuat untuk melakukan pentesting
+Virtosa adalah linux yang dibuat untuk melakukan pentesting
 
 ## Download and Video Review
 
@@ -98,7 +98,7 @@ Video review : Youtube
     ```Console
     # git clone https://github.com/EliverLara/Nordic.git /usr/share/themes/Nordic
     # git clone https://github.com/zayronxio/Zafiro-icons.git /usr/share/icons/zafiro
-    #git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/theme/virtosa-splash
+    # git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/theme/virtosa-splash
     # curl 'https://images7.alphacoders.com/407/407469.jpg' --output /usr/share/backgrounds/joker.jpg
     ```
 
