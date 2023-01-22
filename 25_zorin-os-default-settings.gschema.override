@@ -12,6 +12,9 @@ picture-uri = 'file:///usr/share/backgrounds/joker.jpg'
 [org.gnome.desktop.interface]
 color-scheme = 'prefer-dark'
 
+[org.gnome.desktop.screensaver]
+picture-uri = 'file:///usr/share/backgrounds/joker.jpg'
+
 [org.gnome.desktop.session]
 session-name = 'zorin'
 
@@ -23,7 +26,7 @@ input-feedback-sounds = true
 highlight-current-line = false
 
 [org.gnome.login-screen]
-logo = '/usr/share/plymouth/zorin-logo.svg'
+logo = '/usr/share/plymouth/virtosa.png'
 
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-type = 'nothing'

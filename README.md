@@ -100,7 +100,6 @@ Video review : Youtube
     # git clone https://github.com/EliverLara/Nordic.git /usr/share/themes/Nordic
     # git clone https://github.com/zayronxio/Zafiro-icons.git /usr/share/icons/zafiro
     # git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/theme/virtosa-splash
-    # curl 'https://images7.alphacoders.com/407/407469.jpg' --output /usr/share/backgrounds/joker.jpg
     ```
 
 8. Ubah Icon
@@ -111,20 +110,27 @@ Video review : Youtube
     # rm -R /usr/share/icons/zafiro/
     ```
 
-9. Ubah Cursor
+9. Ubah wallpaper dan logo
+
+    ```Console
+    # mv /usr/share/plymouth/theme/virtosa-splash/joker.jpg /usr/share/backgrounds/
+    # mv /usr/share/plymouth/theme/virtosa-splash/virtosa.jpg /usr/share/plymouth/
+    ```
+
+10. Ubah Cursor
 
     ```Console
     # mv /usr/share/themes/Nordic/kde/cursors/Nordic-cursors /usr/share/icons/
     ```
 
-10. Untuk mengatur tema dan tampilan, GNOME bekerja dengan dconf, tetapi dconf hanya bisa digunakan untuk spesifik user saja, untuk mensetting global user, bisa menggunakan glib
+11. Untuk mengatur tema dan tampilan, GNOME bekerja dengan dconf, tetapi dconf hanya bisa digunakan untuk spesifik user saja, untuk mensetting global user, bisa menggunakan glib
 
     ```Console
     # mv /usr/share/plymouth/theme/virtosa-splash/*.override /usr/share/glib-2.0/schemas/
     # glib-compile-schemas /usr/share/glib-2.0/schemas/
     ```
 
-11. Ubah Splash Screen
+12. Ubah Splash Screen
 
     ```Console
     # update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/virtosa-splash/virtosa-splash.plymouth 700
