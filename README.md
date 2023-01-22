@@ -97,14 +97,15 @@ Video review : Youtube
     ```Console
     # git clone https://github.com/EliverLara/Nordic.git /usr/share/themes/Nordic
     # git clone https://github.com/zayronxio/Zafiro-icons.git /usr/share/icons/zafiro
+    #git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/theme/virtosa-splash
     # curl 'https://images7.alphacoders.com/407/407469.jpg' --output /usr/share/backgrounds/joker.jpg
     ```
 
 8. Ubah Splash Screen
 
     ```Console
-    # update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/black_hud/black_hud.plymouth 700
-    # update-alternatives --set default.plymouth /usr/share/plymouth/themes/black_hud/black_hud.plymouth
+    # update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/virtosa-splash/virtosa-splash.plymouth 700
+    # update-alternatives --set default.plymouth /usr/share/plymouth/themes/virtosa-splash/virtosa-splash.plymouth
     # update-initramfs -u
     ```
 
