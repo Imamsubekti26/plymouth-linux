@@ -138,6 +138,17 @@ Video review : Youtube
     # update-initramfs -u
     ```
 
+13. setting tampilan saat pertama kali install
+
+```Console
+    # nano /etc/lsb-release
+    # nano /etc/issue
+    # nano /etc/issue.net
+    # nano /etc/usr/share/ubiquity-slideshow/slides/welcome.html
+```
+
+14. ubah logo ini ```/usr/shell/gnome-shell/extensions/zorin-menu@zorinos.com/zorin-icon-symbolic.svg```
+
 ## Credits
 
 - thanks to zorin OS (check on [Website]('https://zorin.com'))
