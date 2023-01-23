@@ -58,7 +58,7 @@ Video review : Youtube
     - File ISO yang akan di remastering, disini kami menggunakan zorin OS 16.2 Core
     - Tools untuk melakukan remastering, disini kami menggunakan software Cubic
 
-2. Buka Software Cubic
+2. Buka Software Cubic lalu sesuaikan segala keperluannya
 
 3. dasda
 
@@ -113,8 +113,8 @@ Video review : Youtube
 9. Ubah wallpaper dan logo
 
     ```Console
-    # mv /usr/share/plymouth/themes/virtosa-splash/joker.jpg /usr/share/backgrounds/
-    # mv /usr/share/plymouth/themes/virtosa-splash/virtosa.jpg /usr/share/plymouth/
+    # mv /usr/share/plymouth/themes/virtosa-splash/virtosaWallpaper.jpg /usr/share/backgrounds/
+    # mv /usr/share/plymouth/themes/virtosa-splash/virtosa.png /usr/share/plymouth/
     ```
 
 10. Ubah Cursor
@@ -156,4 +156,3 @@ Video review : Youtube
 - thanks to zorin OS (check on [Website]('https://zorin.com'))
 - thanks to EliverLara for Nordic Theme and Nordic Cursors (check on [Github]('https://github.com/EliverLara'))
 - thanks to zayronxio for Zafiro Icons (check on [Github]('https://github.com/zayronxio'))
-- thanks to lonewolf6738 for Joker Wallpaper (check on [Alphacoders]('https://alphacoders.com/users/profile/42440'))
