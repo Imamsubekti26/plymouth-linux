@@ -99,7 +99,7 @@ Video review : Youtube
     ```Console
     # git clone https://github.com/EliverLara/Nordic.git /usr/share/themes/Nordic
     # git clone https://github.com/zayronxio/Zafiro-icons.git /usr/share/icons/zafiro
-    # git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/theme/virtosa-splash
+    # git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/themes/virtosa-splash
     ```
 
 8. Ubah Icon
@@ -113,8 +113,8 @@ Video review : Youtube
 9. Ubah wallpaper dan logo
 
     ```Console
-    # mv /usr/share/plymouth/theme/virtosa-splash/joker.jpg /usr/share/backgrounds/
-    # mv /usr/share/plymouth/theme/virtosa-splash/virtosa.jpg /usr/share/plymouth/
+    # mv /usr/share/plymouth/themes/virtosa-splash/joker.jpg /usr/share/backgrounds/
+    # mv /usr/share/plymouth/themes/virtosa-splash/virtosa.jpg /usr/share/plymouth/
     ```
 
 10. Ubah Cursor
@@ -126,7 +126,7 @@ Video review : Youtube
 11. Untuk mengatur tema dan tampilan, GNOME bekerja dengan dconf, tetapi dconf hanya bisa digunakan untuk spesifik user saja, untuk mensetting global user, bisa menggunakan glib
 
     ```Console
-    # mv /usr/share/plymouth/theme/virtosa-splash/*.override /usr/share/glib-2.0/schemas/
+    # mv /usr/share/plymouth/themes/virtosa-splash/*.override /usr/share/glib-2.0/schemas/
     # glib-compile-schemas /usr/share/glib-2.0/schemas/
     ```
 
@@ -148,6 +148,8 @@ Video review : Youtube
 ```
 
 14. ubah logo ini ```/usr/shell/gnome-shell/extensions/zorin-menu@zorinos.com/zorin-icon-symbolic.svg```
+
+15. buka file ```nano /usr/share/gnome-shell/extensions/zorin-taskbar@zorinos.com/panelPositions.js``` lalu ubah show_app_btn jadi true dan activities btn jadi false
 
 ## Credits
 

@@ -1,0 +1,12 @@
+wallpaper 
+  : 3840 x 2160
+  : wallpapers
+4 splashscreen 
+  : 533 x 400
+  : plymouth/theme
+logo lockscreen (icon title)
+  : 200 x 30
+  : plymouth
+ubiquity
+  : 752 x 371
+  : ubiquity-slideshow/slides/screenshots/
