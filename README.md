@@ -103,7 +103,7 @@ Video review : Youtube
     # git clone https://github.com/Imamsubekti26/plymouth-linux.git /usr/share/plymouth/themes/virtosa-splash
     ```
 
-8. Ubah Icon
+8. Pindahkan file icon ke directory ```/usr/share/icons/``` 
 
     ```Console
     # mv /usr/share/icons/zafiro/Dark/ /usr/share/icons/Zafiro-icon-dark/
@@ -111,14 +111,14 @@ Video review : Youtube
     # rm -R /usr/share/icons/zafiro/
     ```
 
-9. Ubah wallpaper dan logo
+9. Pindahkan file wallpaper (ke ```/usr/share/backgrounds```) dan logo (ke ```/usr/share/plymouth```)
 
     ```Console
     # mv /usr/share/plymouth/themes/virtosa-splash/virtosaWallpaper.jpg /usr/share/backgrounds/
     # mv /usr/share/plymouth/themes/virtosa-splash/virtosa.png /usr/share/plymouth/
     ```
 
-10. Ubah Cursor
+10. Pindahkan file cursor ke directory ```/usr/share/icons```
 
     ```Console
     # mv /usr/share/themes/Nordic/kde/cursors/Nordic-cursors /usr/share/icons/
