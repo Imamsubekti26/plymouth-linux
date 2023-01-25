@@ -14,13 +14,14 @@ Video review : Youtube
 | Name | NIM |
 |-|-|
 | Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
-| Imam Subekti | 22.01.4813 |
+| Singgih Brilian Tara | 22.01.4818 |
+| Shafira Ayudea Narandika | 22.01.4821 |
+| Reyhan Sanfezi Hediansyah | 22.01.4834 |
+| Hafidz Afrizal | 22.01.4797 |
+| Muhammad Aris | 22.01.4810 |
+| Ilham Kusmayadi | 22.01.4809 |
+| Dimas Wahyu Ardi | 22.01.4800 |
+| Aroyo Bintang Wiliantoro | 22.01.4794 |
 
 ## Base Information
 
