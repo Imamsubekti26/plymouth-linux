@@ -2,7 +2,7 @@
 last update : 26 January 2023
 
 ## Introducing
-Virtosa adalah linux yang dibuat untuk melakukan pentesting
+Virtosa adalah linux yang dibuat untuk melakukan hacking pemula
 
 ## Download and Video Review
 
@@ -26,13 +26,13 @@ Video review : Youtube
 
 |||
 --|--|
-| Name  | OviOS |
+| Name  | Virtosa |
 | Based on  | Zorin OS 16.2 Core |
 | Desktop Interface | GNOME |
 |Architecture|x86_64|
 |Package management|DEB|
 | Color Scheme | Nordic |
-| Special for | Pentesting |
+| Special for | beginner Hacking |
 |||
 
 ## Software
@@ -41,10 +41,10 @@ Video review : Youtube
 |-|-|
 |Nmap|libreOffice|
 |Metasploit|FireFox|
-|Netcat|Burpsuite|
-|SqlMap|Dirbuster|
-|Fiddler|w3af|
-|Sublist3r|Wireshark|
+|Netcat|amass|
+|SqlMap|postman|
+|aircrack-ng|john the ripper|
+|dex2jar|Wireshark|
 
 
 ## Step by Step
@@ -138,7 +138,7 @@ Video review : Youtube
     # update-initramfs -u
     ```
 
-13. setting tampilan saat pertama kali install
+13. setting tampilan saat pertama kali install dan ubiquity installer
 
 ```Console
     # nano /etc/lsb-release
@@ -149,7 +149,7 @@ Video review : Youtube
 
 14. ubah logo ini ```/usr/shell/gnome-shell/extensions/zorin-menu@zorinos.com/zorin-icon-symbolic.svg```
 
-15. buka file ```nano /usr/share/gnome-shell/extensions/zorin-taskbar@zorinos.com/panelPositions.js``` lalu ubah show_app_btn jadi true dan activities btn jadi false
+15. buka file ```nano /usr/share/gnome-shell/extensions/zorin-taskbar@zorinos.com/panelPositions.js``` lalu ubah show_app_btn jadi true dan activities_btn jadi false
 
 ## Credits
 
