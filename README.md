@@ -1,10 +1,11 @@
 # Virtosa | Remastering Linux Project
-last update : 26 January 2023
+last update : 26 Juni 2023
 
 ## Introducing
 Virtosa adalah linux yang dibuat untuk melakukan hacking pemula.
 
-repository ini kami buat untuk memenuhi tugas UAS Sistem Operasi kami yaitu remastering linux
+ini adalah tugas UAS Sistem Operasi kami yaitu remastering linux
+repository ini kami buat untuk menyimpan assets yang diperlukan untuk me-remastering linux
 
 ## Download and Video Review
 
