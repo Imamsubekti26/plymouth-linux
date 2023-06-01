@@ -2,11 +2,13 @@
 last update : 26 January 2023
 
 ## Introducing
-Virtosa adalah linux yang dibuat untuk melakukan hacking pemula
+Virtosa adalah linux yang dibuat untuk melakukan hacking pemula.
+
+repository ini kami buat untuk memenuhi tugas UAS Sistem Operasi kami yaitu remastering linux
 
 ## Download and Video Review
 
-Download : GDrive
+Download : [Mega](https://mega.nz/file/YnBQmLCT#wg0oy73ARflYfP4wCH92yV266xeNL3169q4UsGnjhG0)
 
 Video review : Youtube
 
